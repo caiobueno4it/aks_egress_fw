@@ -1,0 +1,21 @@
+subscription_id = "e47910e0-d596-4a30-8011-5edf68119cbb"
+location        = "eastus2"
+rg              = "rg-lab02"
+aks_infra       = "rg-lab02_infra"
+
+vnet             = "vnet-lab02"
+snet_aks         = "snet-aks02"
+snet_fw          = "AzureFirewallSubnet"
+vnet_address     = "10.42.0.0/16"
+snet_aks_address = "10.42.1.0/24"
+snet_fw_address  = "10.42.2.0/26"
+
+pip_fw = "pip-fw02"
+fw     = "fw-lab02"
+
+aks_name      = "akslab002"
+aks_dns       = "akslab002"
+aks_spool     = "spool"
+aks_npool_lnx = "nplnx"
+aks_npool_win = "npwin"
+vm_size       = "Standard_B2s"
